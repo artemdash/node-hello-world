@@ -26,7 +26,7 @@ app.get('/', (req, res) => {
 <body>
   <h1>Hello, world!</h1>
   <p>Node.js ${process.version} | started ${startedAt}</p>
-  <p>Health page: <a target="_blank" href="/health"></a></p>
+  <p>Health page: <a target="_blank" href="/health">/health</a></p>
 </body>
 </html>`);
 });
