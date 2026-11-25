@@ -16,11 +16,17 @@ app.get('/', (req, res) => {
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Hello, World!</title>
+  <title>Hello, world!</title>
+  <style>
+    body {
+      font-family: Verdana, sans-serif;
+    }
+  </style>
 </head>
 <body>
-  <h1>Hello, World!</h1>
-  <p>Node.js ${process.version} | port ${PORT} | host ${os.hostname()} | started ${startedAt}</p>
+  <h1>Hello, world!</h1>
+  <p>Node.js ${process.version} | started ${startedAt}</p>
+  <p>Health page: <a target="_blank" href="/health"></a></p>
 </body>
 </html>`);
 });
